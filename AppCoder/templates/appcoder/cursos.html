@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--En cursos.html-->
+    {% extends "AppCoder/padre.html" %}
+
+    {% load static %}
+
+    {% block contenidoQueCambia %}
+
+    <!--Aqui va lo que cambio, y lo asociado a esta vista-->
+        <h1>Este es el titulo del Inicio que cambio</h1>
+        <p>Se ha heredado todo desde la paltilla padre</p>
+        <h3>En el hijo, inicio.html,casi no hay nada</h3>
+    
+    {% endblock %}
+    
+
+
+
+    
+</body>
+</html> 
